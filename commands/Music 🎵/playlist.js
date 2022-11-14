@@ -91,7 +91,12 @@ module.exports = {
         return (song = {
           title: video.title,
           url: video.url,
-          duration: video.durationSeconds
+          id: video.id,
+          img: `https://img.youtube.com/vi/${video.id}/mqdefault.jpg`,
+          duration: video.durationSeconds+" Seconds",
+          ago: video.uploadDate,
+          views: String(video.viewCount).padStart(10, ' '),
+          req: message.author,
         });
       });
 
@@ -101,6 +106,7 @@ module.exports = {
       .setTitle(`${playlist.title}`)
       .setDescription(newSongs.map((song, index) => `${index + 1}. ${song.title}`))
       .setURL(playlist.url)
+      .setThumbnail(`https://img.youtube.com/vi/${newSongs[0].id}/mqdefault.jpg`)
       .setColor("#F8AA2A")
       .setTimestamp();
 

@@ -5,7 +5,7 @@ function Status() {
     let Presence = [ "dnd", "idle", "online" ]; //can be: online | dnd | idle | offline
     let PresencePower = Presence[Math.floor(Math.random() * Presence.length)]
    client.user.setPresence({ status: PresencePower })
-};setInterval(Status, 5000)
+};setInterval(Status, 10000)
 function Activitys() {
     let totalUsers = client.guilds.cache.reduce((acc, value) => acc + value.memberCount, 0)
     let Activity = [`${client.prefix}help`, `${client.prefix}play` , `${client.guilds.cache.size} Servers`, `${totalUsers} Users`];
@@ -15,7 +15,7 @@ function Activitys() {
     let URL = [ `https://www.twitch.tv/sobhan_srza` ];
     let URLPower = URL[Math.floor(Math.random() * URL.length)];
    client.user.setActivity({ type: DisplayPower, name: ActivityPower, url: URLPower });
-};setInterval(Activitys, 5000)
+};setInterval(Activitys, 10000)
 try{
    const stringlength = 69;
    console.log("\n")

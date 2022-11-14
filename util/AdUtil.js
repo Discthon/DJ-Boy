@@ -1,3 +1,4 @@
+require('dotenv').config()
 exports.canModifyQueue = (member) => {
   const { channelID } = member.voice;
   const botChannel = member.guild.voice.channelID;

@@ -18,6 +18,7 @@
     "cpu-stat": "^2.0.1",
     "discord-buttons": "^4.0.0-deprecated",
     "discord.js": "^12.5.1",
+    "dotenv": "^16.0.2",
     "erit-ytdl": "^0.1.2",
     "express": "^4.17.2",
     "ffmpeg-static": "^4.2.7",

@@ -19,9 +19,9 @@
 	"about": {
 		"description": "Send you some information about bot."
 	},
-  "setprefix":{
-    "description":"Change bot prefix in server"
-  },
+	"setprefix": {
+		"description": "Change bot prefix in server"
+	},
 	"report": {
 		"description": "For report bot bugs to developers :)"
 	},
@@ -99,7 +99,8 @@
 		"fetchingPlaylist": "⌛ fetching the playlist...",
 		"playlistCharLimit": "\nPlaylist larger than character limit...",
 		"startedPlaylist": "<@{author}> Started a playlist",
-		"cantJoinChannel": "Could not join the channel: {error}"
+		"cantJoinChannel": "Could not join the channel: {error}",
+		"usageReply": "playlist.usageReply"
 	},
 	"pruning": {
 		"description": "Toggle pruning of bot messages",
@@ -175,7 +176,7 @@
 		"enabled": "**enabled**",
 		"disabled": "**disabled**",
 		"errorNotChannel": "You need to join a voice channel first!",
-    "unknowCommand": "{alert}| this command `{name}` is unknow for me.",
+		"unknowCommand": "{alert}| this command `{name}` is unknow for me.",
 		"cooldownMessage": "{alert}| please wait {time} more second(s) before reusing the `{name}` command.",
 		"errorCommend": "{alert}| There was an error executing that command."
 	},

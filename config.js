@@ -1,3 +1,4 @@
+require('dotenv').config()
 module.exports={
 YOUTUBE_API_KEY: //"AIzaSyAheHfo0S94kDWIs2nnfPQP4Kf6c8febrI", 
 //"AIzaSyAzoFkt3mdZjinOHefK9UjK-mRzC12tN70",

@@ -11,8 +11,6 @@ i18n.setLocale(LOCALE);
 module.exports = async (client, message) => {
       if(message.channel.type === 'dm'){
         if(message.author.bot) return;
-        if(message.content.includes(`@everyone`)) return
-        if(message.author.id === client.user.id)return
         if(message.content.includes('@'))return message.channel.send("⛔| **you can't mention someone.**")
       const channelbug = client.channels.cache.get(client.config.REPORT_CHANNEL_ID);
         const embed = new Discord.MessageEmbed()
@@ -23,12 +21,12 @@ module.exports = async (client, message) => {
           .setDescription(`> ${message.content}`)
         channelbug.send(embed).then((msg)=> {
           msg.react("📞")
-         }).then(
+         }).then((m)=>{
              message.reply({
-              content: `✅| \`\`\`js\n 📞| Successfuly your report or bug message send to My Developers ❤️ \`\`\`**thank's for sending your message to us.\nFor helping you my develpoers or admins send a \`Friend-Request\` for you or just join to server and fix your problem. :)**`,
+              content: ` \`\`\`js\n ✅| Successfuly your report or bug📞 message send to My Developers ❤️ \`\`\`**thank's for sending your message to us.\nFor helping you my develpoers or admins send a \`Friend-Request\` for you or just join to server and fix your problem. :)**`,
               components: [NeedHelpButtons()] 
              })
-            )
+            })
     }
     function NeedHelpButtons() {
   const btn = new MessageButton()
@@ -45,9 +43,7 @@ module.exports = async (client, message) => {
     if (message.author.bot || message.channel.type === 'dm') return;
 
 //======== Command for shows the prefix ========
-    const art = message.content.slice(client.prefix.length).trim().split(/ +/g);
-    const cod = art.shift().toLowerCase();
-      if (cod === `prefix`) {
+      if (message.content === `<@!${client.user.id}>` || message.content === `<@${client.user.id}>` || message.content === `${client.prefix}prefix`) {
       var prf = await db.fetch(`prefix_${message.guild.id}`)||client.prefix;
       let errorprefixEmbed = new Discord.MessageEmbed()
             .setColor("#2F3136")
@@ -72,21 +68,21 @@ module.exports = async (client, message) => {
   const args = message.content.slice(matchedPrefix.length).trim().split(/ +/);
   const commandName = args.shift().toLowerCase();
 
-  const command =
-    client.commands.get(commandName) ||
-    client.commands.find((cmd) => cmd.aliases && cmd.aliases.includes(commandName));
+  const command = client.commands.get(commandName) || client.commands.find((cmd) => cmd.aliases && cmd.aliases.includes(commandName));
 if(commandName.length > 0){
   if (!command) return message.reply(
         i18n.__mf("common.unknowCommand", { alert: "⛔️", name: commandName })
       );
 }
+  
+//======== Command Cooldown ========
   if (!client.cooldowns.has(command.name)) {
     client.cooldowns.set(command.name, new Discord.Collection());
   }
 
   const now = Date.now();
   const timestamps = client.cooldowns.get(command.name);
-  const cooldownAmount = (command.cooldown || 3) * 1000;
+  const cooldownAmount = (command.cooldown || 5) * 1000;
 
   if (timestamps.has(message.author.id)) {
     const expirationTime = timestamps.get(message.author.id) + cooldownAmount;
@@ -106,14 +102,14 @@ if(commandName.length > 0){
     command.execute(message, args);
   } catch (error) {
     console.error(error);
-    message.reply(i18n.__("common.errorCommend", {  alert: "⚠️" })).catch(console.error);
+    //message.reply(i18n.__("common.errorCommend", {  alert: "⚠️" })).catch(console.error);
   }
-
+  
 //========== Leave Guild =========
   if(message.guild.memberCount < 90&&!message.guild.id==="991109798709956668"&&!message.guild.id === "901877002926174279"){
-  var guild = message.guild
-  guild.owner.send("Hi I left on your server because the number of members of your server is less than 100")
-  guild.leave()
+  var guildOwner = message.guild.members.get(message.guild.owner.id);
+  guildOwner.send("Hi I left on your server because the number of members of your server is less than 100")
+  message.guild.leave()
 }
 };
 /**

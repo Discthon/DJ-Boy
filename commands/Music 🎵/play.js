@@ -120,7 +120,7 @@ module.exports = {
           title: songInfo.videoDetails.title,
           id: songInfo.videoDetails.videoId,
           url: songInfo.videoDetails.video_url,
-          img: songInfo.player_response.videoDetails.thumbnail.thumbnails[0].url,
+          img: `https://img.youtube.com/vi/${songInfo.videoDetails.videoId}/mqdefault.jpg`,
           duration: songInfo.videoDetails.lengthSeconds+" Seconds",
           ago: songInfo.videoDetails.publishDate,
           views: String(songInfo.videoDetails.viewCount).padStart(10, ' '),

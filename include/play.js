@@ -85,21 +85,21 @@ module.exports = {
     dispatcher.setVolumeLogarithmic(queue.volume / 100);
 
     try {
-      var playingMessage = await queue.textChannel.send(
-        new MessageEmbed()
+      var playingEmbed = new MessageEmbed()
         .setAuthor("Music is playing", "https://cdn.discordapp.com/attachments/865859167557255178/897552744402026556/undefined_-_Imgur.gif")
         .setTitle("Now Playing")
         .setURL(`${song.url}`)
-        //.setThumbnail(message.author.displayAvatarURL({ dynamic: true }))
-        //.setImage(`${song.img}`)
-        .setThumbnail(song.img)
+        .setThumbnail(message.author.displayAvatarURL({ dynamic: true }))
         .addField("Name", i18n.__mf("play.startedPlaying", { title: song.title}), true)
         .addField("Duration", song.duration, true)
         .addField("Requested by", song.req, true)
         .setFooter(`Views:${song.views}\n${song.ago} \nCreated by Mr.SIN RE#1528 :)`,`${message.author.displayAvatarURL({ dynamic: true })}`)
         .setColor("#2F3136")
         .setTimestamp()
-      );
+      if(song.img){
+        playingEmbed.setImage(`${song.img}`)
+      }
+      var playingMessage = await queue.textChannel.send(playingEmbed);
       await playingMessage.react("⏭");
       await playingMessage.react("⏯");
       await playingMessage.react("🔇");
