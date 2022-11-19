@@ -2,41 +2,13 @@
 
 ## 🎧 DJ Boy Source (simple music player🎵)
   <a href="https://discord.com/api/oauth2/authorize?client_id=912607202064367647&permissions=412320394305&scope=bot%20applications.commands">
-    <img align="right" src = https://cdn.discordapp.com/avatars/912607202064367647/b0d19617e80687efd54966ec5b9ebd3a.png?size=1024" width=30% >
+    <img align="right" src = https://cdn.discordapp.com/avatars/912607202064367647/b0d19617e80687efd54966ec5b9ebd3a.png?size=1024" width=25% >
   </a>
 
 Hi there👋🏻
 this source bot writes with love and much works❤️‍🔥
 with inviting **"[DJ Boy](https://discord.com/api/oauth2/authorize?client_id=912607202064367647&permissions=412320394305&scope=bot%20applications.commands)"** you can help us to make so many bots in future🫂.
 please give **"star ⭐️"** to this project❤️   
-
-
-some example images about the bot👇🏻
-
----
-
-**👌🏻Perfect Help Menu For Members:**
-
-  <a href="http://sobhan.epizy.com/">
-    <img align="center" src="https://media.discordapp.net/attachments/906230974319300638/1041798984676683876/Discord___cmd___Persian_Czar_Test_Server_-_Google_Chrome_23_08_1401_11_05_20_..png?width=411&height=559" width = 30% />
-  </a>
-
----
-
-**⚒️Worked With Advanced Button Systems:**
-
-  <a href="http://sobhan.epizy.com/">
-    <img align="center" src="https://media.discordapp.net/attachments/906230974319300638/1041799572005064704/Discord___cmd___Persian_Czar_Test_Server_-_Google_Chrome_23_08_1401_11_07_57_..png" width = 30% />
-    <img align="center" src="https://media.discordapp.net/attachments/906230974319300638/1041799783402184797/Captures_23_08_1401_11_09_40_..png" width = 30% />
-  </a>
-
----
-
-**💻Easy To Setup:**
-
-  <a href="http://sobhan.epizy.com">
-    <img align="center" src ="https://media.discordapp.net/attachments/906230974319300638/1041799572797796422/Discord___cmd___Persian_Czar_Test_Server_-_Google_Chrome_23_08_1401_11_07_38_..png?width=589&height=559" width = 30% />
-  </a>
 
 ---
 
