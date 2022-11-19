@@ -1,315 +1,159 @@
-# زبان فارسی
-[![Deploy on Herokucd](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Sobhan-SRZA/Reaction-Music-Bot/)
-
-[![Use on Replit](https://repl.it/badge/github/Sobhan-SRZA/Reaction-Music-Bot/)](https://repl.it/github/Sobhan-SRZA/Reaction-Music-Bot/)
 
 
-## آدرس های من در فضای مجازی👇🏼🙃
-آدرس [توییچ](https://www.twitch.tv/sobhan_srza)
- 
-آدرس کانال [تلگرام من](https://t.me/SobhanSRZA)
+## 🎧 DJ Boy Source (simple music player🎵)
+  <a href="https://discord.com/oauth2/authorize?client_id=905297556836343849&scope=bot+applications.commands+identify+guilds+applications.commands.permissions.update&permissions=2080374975">
+    <img align="right" src = https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBcO-KIvAdSuiLeM3uHfR1Lp2i27Sqiib8-w&usqp=CAU" width=20% >
+  </a>
 
-آدرس [اینستگرام](https://www.instagram.com/srza._.gamer)
- 
-آدرس [آپارات](https://www.aparat.com/Sobhan.SRZA)
-
-آدرس [یوتوب](https://b2n.ir/srza.-.gamer)
-
-آدرس [دیسکورد](https://discord.gg/bNpqrdXNNn)
-
-آدرس [یوتوب](https://b2n.ir/srza._.action)
+Hi there👋🏻
+this source bot writes with love and much works❤️‍🔥
+with inviting **"[DJ Boy](https://discord.com/oauth2/authorize?client_id=905297556836343849&scope=bot+applications.commands+identify+guilds+applications.commands.permissions.update&permissions=2080374975)"** you can help us to make so many bots in future🫂.
+please give **"star ⭐️"** to this project❤️   
 
 
-# 🤖 (ربات موسیقی دیسکورد)
-> AD یک ربات موسیقی Discord است که با discord.js ساخته شده است و از Command Handler از [discordjs.guide](https://discordjs.guide) استفاده می کند.
-
-## نصب و راه اندازی
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Sobhan-SRZA/Reaction-Music-Bot)
-
-
-1. نحوه دریافت توکن ربات Discord **[Guide](https://discordjs.guide/preparations/setting-up-a-bot-application.html#creating-your-bot)**
-2. 2. YouTube Data API v3 Key **[راهنما](https://developers.google.com/youtube/v3/getting-started)**
-3. SoundCloud دیگر API ارائه نمی کند، بنابراین نیازی به api نیست.**
-4. Node.js نسخه 12.0.0 یا جدیدتر
-
-## 🏁 شروع می کنیم
-
-من ترجیح می دهم آن را روی repl.it اجرا کنم زیرا اطمینان بیشتری نسبت به **وبسایت glitch **می دهد. به repl.it [اینجا](https://repl.it/) بروید. برای دریافت برنامه هکر رایگان، به [اینجا](https://repl.it/claim) بروید.  و این کد را در آنجا قرار دهید
-
-
-----
-
-## 🧐 یک چشم انداز عمده
-
-پس از تکمیل تمام اقساط مورد نیاز و تغییرات، به **Uptime Robot** [اینجا](https://uptimerobot.com/) بروید و در آنجا وارد شوید.. مانیتور را به عنوان "https" انتخاب کنید. سپس به یک لینک نیاز دارید.. می توانید لینک را در بخش وب پروژه خود دریافت کنید.. بار اول اگر پروژه را اجرا نمی کنید، آن بخش را نمی بینید. پروژه را اجرا کنید و می توانید آن را ببینید. سپس لینک را در ربات آپ تایم قرار دهید و هر نامی را انتخاب کنید و روی مانیتور کلیک کنید. ..و پروژه شما 24/7 آنلاین خواهد بود..
+some example images about the bot👇🏻
 
 ---
 
-## 🔎 ساخت پروژه
+**👌🏻Perfect Help Menu For Members:**
 
-**برای کاربران پیسی که از VS CODE استفاده میکنند** -
-
-```
-git clone https://github.com/Sobhan-SRZA/Reaction-Music-Bot.git
-
-npm install
-```
-
-پس از اتمام نصب، می توانید از دستور «node index.js» برای راه اندازی ربات استفاده کنید.
-
-**برای کاربران replit** -
-
-**روی این ضربه بزنید --**
-
-[![استفاده در Replit](https://repl.it/badge/github/Sobhan-SRZA/Reaction-Music-Bot/)](https://repl.it/github/Sobhan-SRZA/Reaction-Music-Bot/)
-
-```
-(npm i) را در کنسول تایپ کنید
-```
-
-## ⚙️ ساخت فایل
-
-'config.json' مقادیر را پر کنید:
-
-🚨🚨 **تعهد کردن توکن خود به دسترسی دیگران یا عمومی کردن آن اکیداً ممنوع است. بنابراین، توکن خود را به هیچ قیمتی به اشتراک نگذارید و از .gitignore برای مخفی کردن اسرار استفاده نکنید** 🚨🚨
-
-```json
-{
-  "YOUTUBE_API_KEY": "AIzaSyAheHfo0S94kDWIs2nnfPQP4Kf6c8febrI",
-  "SOUNDCLOUD_CLIENT_ID": "6gsNBd4mJwXr0LxTBh8VKBOrViK6Aj",
-  "support_server": "YOUR_SERVER_LINK",
-  "MAX_PLAYLIST_SIZE": 10,
-  "PREFIX": "BOT_REFIX",
-  "PRUNING": false,
-  "LOCALE": "en",
-  "STAY_TIME": 30,
-  "DEFAULT_VOLUME": 100
-}
-```
-
-زبان های موجود در حال حاضر عبارتند از:
-
-• انگلیسی (en)
-• فرانسوی (fr)
-• اسپانیایی (es)
-• ترکی (tr)
-• کره ای (ko)
-• پرتغالی برزیل (pt_br)
-• چینی ساده شده (zh_cn)
-• چینی سنتی (zh_tw)
-
-## 📝 ویژگی ها و دستورات
-
-> توجه: پرفیکس (پیشوند) پیش فرض '+' است
-
-* 🎶 با استفاده از آدرس یوتیوب
-
-«+play https://youtu.be/jS9l8O4AAWo».
-
-* 🔎 پخش موسیقی از طریق نام
-
-«+play srza gang».
-
-* 🔎 جستجو و بازی کنید
-
-«+search srza gamer».
-
-با شماره آهنگ یا اعداد جدا شده با کاما که می خواهید پخش کنید پاسخ دهید
-
-مثال‌ها: «1» یا «1،2،3».
-
-* 📃 یک لیست پخش را مستقیماً از یوتیوب به Discord پخش کنید
-
-`+playlist https://www.youtube.com/playlist?list=PLeiP6sSl8XyF7qcJ7WR6FjkpKtNBtzkqe`
-![لیست پخش](https://cdn.discordapp.com/attachments/906688516140961802/938058904846340166/Music-CMD_-_Google_Chrome_2_1_2022_2_14_27_PM.png)
-
-* 🔎 پخش لیست های پخش یوتیوب از طریق عبارت جستجو
-
-«+playlist NCS Releases».
-![جستجو](https://cdn.discordapp.com/attachments/906688516140961802/938059882832224316/Music-CMD_-_Google_Chrome_2_1_2022_4_43_13_PM.png)
-
-**دستورات ربات ما**
-
-* در حال پخش (np+)
-* سیستم صف (queue, +q+)
-* حلقه / تکرار (loop+)
-* مخلوط کردن (shuffle+)
-* کنترل صدا (volume، +v+)
-* متن ترانه (lyrics, +ly+)
-* مکث (pause+)
-* رزومه (resume, +r+)
-* پرش (skip, +s+)
-* پرش به آهنگ # در صف (skipto، +st+)
-* آهنگ # را از صف حذف کنید (remove, +rm+)
-* حذف هرس پیام های ربات (pruning+)
-* راهنما (help، +h+)
-* Command Handler از [discordjs.guide](https://discordjs.guide/)
-* ربات Discord شما را از طریق Reactions کنترل می کند
-![Reactions](https://cdn.discordapp.com/attachments/906688516140961802/938066570691887166/Music-CMD_-_Google_Chrome_2_1_2022_5_10_50_PM.png)
-
-
-اعتبار اصلی به [Sobhan-SRZA@](https://github.com/Sobhan-SRZA/) برای ساخت DJ BOY با موفقیت بهترین ربات موسیقی...😍
-مخزن DJ BOY را از اینجا دریافت کنید -
-https://github.com/Sobhan-SRZA/Reaction-Music-Bot
-
-
-
-## Language EN
-[![Deploy on Herokucd](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Sobhan-SRZA/Reaction-Music-Bot/)
-
-[![Use on Replit](https://repl.it/badge/github/Sobhan-SRZA/Reaction-Music-Bot/)](https://repl.it/github/Sobhan-SRZA/Reaction-Music-Bot/)
-
-## My addresses in cyberspace 👇🏼🙃📡
-
-
-[Twich](https://www.twitch.tv/sobhan_srza) address
- 
-My [Telegram](https://t.me/SobhanSRZA) Channel Address
-
-[Instegram](https://www.instagram.com/srza._.gamer) address
- 
-Address of the [Aparat](https://www.aparat.com/Sobhan.SRZA)
-
-[YouTube](https://b2n.ir/srza.-.gamer) address
-
-[Discord](https://discord.gg/bNpqrdXNNn)address
-
-[YouTube](https://b2n.ir/srza._.action) address
-
-
-
-
-# 🤖 (Discord Music Bot)
-> AD is a Discord Music Bot built with discord.js & uses Command Handler from [discordjs.guide](https://discordjs.guide)
-
-## Installation
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Sobhan-SRZA/Reaction-Music-Bot)
-
-
-1. How to obtain a Discord Bot Token **[Guide](https://discordjs.guide/preparations/setting-up-a-bot-application.html#creating-your-bot)**
-2. YouTube Data API v3 Key **[Guide](https://developers.google.com/youtube/v3/getting-started)**  
-3. SoundCloud is no more providing APIs so no need of api.**
-4. Node.js v12.0.0 or newer
-
-## 🏁 Starting
-
-I will prefer to run it on repl.it as it gives more convinience than glitch website.. Go to repl.it [here](https://repl.it/).To gain free hacker plan, go to [here](https://repl.it/claim) and paste this code there
-
-
-----
-
-## 🧐 A Major Outlook
-
-After Completing all the required installments and the changes head over to Uptime Robot [here](https://uptimerobot.com/) and login there..Choose the monitor as `https`.Then you would need a link..You could get the link in the web section of you project..First time if you dont run the project you could not see that section.Run the project and you could see it.Then paste the link in uptime robot and take any name and click monitor..And your project will be online 24/7..
+  <a href="http://sobhan.epizy.com/">
+    <img align="center" src="https://media.discordapp.net/attachments/906230974319300638/1041798984676683876/Discord___cmd___Persian_Czar_Test_Server_-_Google_Chrome_23_08_1401_11_05_20_..png?width=411&height=559" width = 30% />
+  </a>
 
 ---
 
-## 🔎 Making The Project
+**⚒️Worked With Advanced Button Systems:**
 
-**For PC users using VS Code** -
+  <a href="http://sobhan.epizy.com/">
+    <img align="center" src="https://media.discordapp.net/attachments/906230974319300638/1041799572005064704/Discord___cmd___Persian_Czar_Test_Server_-_Google_Chrome_23_08_1401_11_07_57_..png" width = 30% />
+    <img align="center" src="https://media.discordapp.net/attachments/906230974319300638/1041799783402184797/Captures_23_08_1401_11_09_40_..png" width = 30% />
+  </a>
 
+---
+
+**💻Easy To Setup:**
+
+  <a href="http://sobhan.epizy.com">
+    <img align="center" src ="https://media.discordapp.net/attachments/906230974319300638/1041799572797796422/Discord___cmd___Persian_Czar_Test_Server_-_Google_Chrome_23_08_1401_11_07_38_..png?width=589&height=559" width = 30% />
+  </a>
+
+---
+
+## 🍴 How Install
+
+for setup your bot, you need put bot secret "Token" in `.env` file and replaced it with `BOT_TOKEN` after that for add bot prefix you need go again in and put your bot `prefix` in `.env` file then replaced it with `BOT_PREFIX` then for working your bot well you have to put bot client id in last file and replaced it with `BOT_CLIENT_ID` 
+```js
+TOKEN=BOT_TOKEN
+PREFIX=BOT_PREFIX
+CLIENT_ID=BOT_CLIENT_ID
 ```
-git clone https://github.com/Sobhan-SRZA/Reaction-Music-Bot.git
 
-npm install
-```
+if you need so much configuration about the bot you can go in to the `config.js` file and edit some parameters for customizing your bot, that file addresses is here `/storage/config.js`
+```js
+//some example code from "config.js"
 
-After installation finishes you can use `node index.js` to start the bot.
-
-**For replit users** -
-
-**Tap on this --**
-
-[![Use on Repl.it](https://repl.it/badge/github/Sobhan-SRZA/Reaction-Music-Bot/)](https://repl.it/github/Sobhan-SRZA/Reaction-Music-Bot/)
-
-```
-Type (npm i) in console
-```
-
-## ⚙️ Making Files
-
-`config.json` fill out the values:
-
-🚨🚨 **Commiting your token to be accessed by others or making it public is strictly prohibited.So, dont share your token in any cost or use .gitignore to hide secrets** 🚨🚨
-
-```json
-{
-  "YOUTUBE_API_KEY": "AIzaSyAheHfo0S94kDWIs2nnfPQP4Kf6c8febrI",
-  "SOUNDCLOUD_CLIENT_ID": "6gsNBd4mJwXr0LxTBh8VKBOrViK6Aj",
-  "support_server": "YOUR_SERVER_LINK",
-  "MAX_PLAYLIST_SIZE": 10,
-  "PREFIX": "BOT_REFIX",
-  "PRUNING": false,
-  "LOCALE": "en",
-  "STAY_TIME": 30,
-  "DEFAULT_VOLUME": 100
+require('dotenv').config()
+module.exports={
+  YOUTUBE_API_KEY: "place_youtube_api_key",
+  SOUNDCLOUD_CLIENT_ID: "place_soundcloud_client_id",
+  PREFIX: process.env.PREFIX,//please don't changes this, you can change it from ".env" file
+  TOKEN: process.env.TOKEN, //please don't changes this, you can change it from ".env" file
+  SUPPORT_SERVER_LINK: "https://discord.gg/at5Q72HNAx",
+  INVITE_LINK: `https://discord.com/api/oauth2/authorize?client_id=${process.env.CLIENT_ID}&permissions=412320394305&scope=bot%20applications.commands`,
+  SATUS_CHANNEL_ID: '988020102186303608',//place channel id for send some status of bot for tell what servers join and left
+  REPORT_CHANNEL_ID: '988020418612961322',//place channel id for send users report messages
+  PRUNING: false,//this is for auto loop music queue, please don't touch 
+  LOCALE: "en",//for change bot language, bot default language is English
+  STAY_TIME: 1600,//plaese don't touch
+  DEFAULT_VOLUME: 100,//don't touch 
+  MAX_PLAYLIST_SIZE: 10,//for set default maximum playlist length
+  owner: ['831934465609302056']
 }
+
 ```
 
-Currently available locales are:
+- if you didn't install source packages you need for install all packages open that👉🏻 `install.bat`
 
-• English (en)
-• French (fr)
-• Spanish (es)
-• Turkish (tr)
-• Korean (ko)
-• Brazilian Portuguese (pt_br)
-• Simplified Chinese (zh_cn)
-• Traditional Chinese (zh_tw)
-
-## 📝 Features & Commands
-
-> Note: The default prefix is '+'
-
-* 🎶 Using YouTube Url
-
-`+play https://www.youtube.com/c/ANDROIDDISCORD`
-
-* 🔎 Playing music via Name
-
-`+play Let me love you`
-
-* 🔎 Search and play
-
-`+search NCS Astronomia`
-
-Reply with song number or numbers seperated by comma that you wish to play
-
-Examples: `1` or `1,2,3`
-
-* 📃 Play a playlist directly from youtube to Discord
-
-`+playlist https://www.youtube.com/playlist?list=PLeiP6sSl8XyF7qcJ7WR6FjkpKtNBtzkqe`
-![playlist](https://cdn.discordapp.com/attachments/906688516140961802/938058904846340166/Music-CMD_-_Google_Chrome_2_1_2022_2_14_27_PM.png)
-
-* 🔎 Play youtube playlists via search query
-
-`+playlist NCS Releases`
-![search](https://cdn.discordapp.com/attachments/906688516140961802/938059882832224316/Music-CMD_-_Google_Chrome_2_1_2022_4_43_13_PM.png)
-
-**Commands of Our Bot**
-
-* Now Playing (+np)
-* Queue system (+queue, +q)
-* Loop / Repeat (+loop)
-* Shuffle (+shuffle)
-* Volume control (+volume, +v)
-* Lyrics (+lyrics, +ly)
-* Pause (+pause)
-* Resume (+resume, +r)
-* Skip (+skip, +s)
-* Skip to song # in queue (+skipto, +st)
-* Remove song # from queue (+remove, +rm)
-* Toggle pruning of bot messages (+pruning)
-* Help (+help, +h)
-* Command Handler from [discordjs.guide](https://discordjs.guide/)
-* Controls your Discord Bot via Reactions
-![reactions](https://cdn.discordapp.com/attachments/906688516140961802/938066570691887166/Music-CMD_-_Google_Chrome_2_1_2022_5_10_50_PM.png)
+Packages  |  Version  |  Install
+------------- | ------------- | -------------
+[quick.db](https://www.npmjs.com/package/quick.db)  | Latest ^7.1.3  | `npm install quick.db`
+[@discordjs/opus](https://www.npmjs.com/package/@discordjs/opus) | Latest ^0.3.3  | `npm install @discordjs/opus`
+[array-move](https://www.npmjs.com/package/array-move) | Lastest ^3.0.1 | `npm install array-move`
+[cli-color](https://www.npmjs.com/package/cli-color) | Lastest ^2.0.2 | `npm install cli-color`
+[cpu-stat](https://www.npmjs.com/package/cpu-stat) | Lastest ^2.0.1 | `npm install cpu-stat`
+[discord.js](https://www.npmjs.com/package/discord.js) | Lastest ^12.5.1 | `npm install discord.js`
+[dotenv](https://www.npmjs.com/package/dotenv) | Lastest ^16.0.1 | `npm install dotenv`
+[discord-buttons](https://www.npmjs.com/package/discord-buttons) | Lastest ^4.0.0-deprecated | `npm install discord-buttons`
+[express](https://www.npmjs.com/package/express) | Lastest ^4.18.1 | `npm install express`
+[i18n](https://www.npmjs.com/package/i18n) | Lastest ^0.13.4 | `npm install i18n`
+[fs](https://www.npmjs.com/package/fs) | Lastest ^0.0.1-security | `npm install fs`
+[lyrics-finder](https://www.npmjs.com/package/lyrics-finder) | Lastest ^21.4.0 | `npm install lyrics-finder`
+[moment](https://www.npmjs.com/package/moment) | Lastest ^2.29.3 | `npm install moment`
+[simple-youtube-api](https://www.npmjs.com/package/simple-youtube-api) | Lastest ^5.2.1 | `npm install simple-youtube-api`
+[soundcloud-downloader](https://www.npmjs.com/package/soundcloud-downloader) | Lastest ^0.2.1 | `npm install soundcloud-downloader`
+[string-progressbar](https://www.npmjs.com/package/string-progressbar) | Lastest ^1.0.1 | `npm install string-progressbar`
+[ytdl-core](https://www.npmjs.com/package/ytdl-core) | Lastest ^4.11.0 | `npm install ytdl-core`
+[ytdl-core-discord](https://www.npmjs.com/package/ytdl-core-discord) | Lastest ^1.3.1 | `npm install ytdl-core-discord`
 
 
-Main Credits go to [@Sobhan-SRZA](https://github.com/Sobhan-SRZA/) for making DJ BOY successfully the best music bot...😍
-Get evobot repo here - 
-https://github.com/Sobhan-SRZA/Reaction-Music-Bot
+- if the source packages needs updates you can open that file for update there👉🏻 `update.bat`
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Sobhan-SRZA&repo=Reaction-Music-Bot&theme=dracula)](https://github.com/Sobhan-SRZA/Reaction-Music-Bot)
+- if you install packages and want run your source you need for run your bot open that👉🏻 `start.bat`
 
+- EZPZ your Music bot are installed and running around 🕺
+
+- How run bot in replit or heroco?
+that was so easy, after you click that buttons👇🏻 you will create some project like this source with importing this source🎓 and after that with installing bot packages, and place bot some important objects run your bot.
+
+<p align="center">
+
+  <a href="https://heroku.com/deploy?template=https://github.com/Sobhan-SRZA/DJ-Boy/">
+    <img align="center" alt="Deploy on Herokucd" src ="https://www.herokucdn.com/deploy/button.svg" >
+  </a>
+
+  <a href="https://glitch.com/edit/#!/import/github/Sobhan-SRZA/DJ-Boy/">
+    <img align="center" alt="Remix on Glitch" src ="https://cdn.glitch.com/2703baf2-b643-4da7-ab91-7ee2a2d00b5b%2Fremix-button.svg" >
+  </a>
+
+  <a href="https://repl.it/github/Sobhan-SRZA/DJ-Boy/">
+    <img align="center" alt="Use on Replit" src ="https://repl.it/badge/github/Sobhan-SRZA/DJ-Boy/" >
+  </a>
+</p>
+
+# **📫 Contact me in :** &nbsp;
+
+<p align="center">
+  <a href="https://zil.ink/sobhan.srza">
+    <img align="left" src ="https://raw.githubusercontent.com/Sobhan-SRZA/Sobhan-SRZA/main/source/social-media.png" width = 50% >
+  </a>
+  <a href="https://discord.gg/WMhke7BW7J">
+    <img alt="Discord" src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289d9&logoColor=white&labelColor=&style=flat" height="30" />
+  </a>
+  <a href="https://t.me/SobhanSRZA">
+    <img alt="Telegram" src="https://img.shields.io/static/v1?message=Telegram&logo=telegram&label=&color=229ED9&logoColor=white&labelColor=&style=flat" height="30" />
+  </a>
+  <a href="https://www.instagram.com/srza._.gamer/">
+    <img alt="Instagram" src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=C13584&logoColor=white&labelColor=&style=flat" height="30" />
+  </a>
+  </a>
+  <a href="https://www.twitch.tv/sobhan_srza">
+    <img alt="Twitch" src="https://img.shields.io/static/v1?message=Twitch&logo=twitch&label=&color=6441A4&logoColor=white&labelColor=&style=flat" height="30" />
+  </a>
+  <a href="https://b2n.ir/srza-.-gamer">
+    <img alt="YouTube" src="https://img.shields.io/static/v1?message=YouTube&logo=youtube&label=&color=FF0000&logoColor=white&labelColor=&style=flat" height="30" />
+  </a>
+  <a href="https://github.com/Sobhan-SRZA">
+    <img alt="Github" src="https://img.shields.io/static/v1?message=Github&logo=github&label=&color=000000&logoColor=white&labelColor=&style=flat" height="30" />
+  </a>
+</p>
+<p align="right">
+  <a href="https://discord.gg/WMhke7BW7J" target="_blank"> 
+    <img src="https://discord.com/api/guilds/912596015075455016/widget.png?style=banner2" alt="sizar-team.png">
+  </a>
+</p>
+<p align="center">
+  <a href="http://sobhan.epizy.com">
+    <img alt="My Discord Account" src="https://discord.c99.nl/widget/theme-1/831934465609302056.png"  />
+  </a>
+</p>
