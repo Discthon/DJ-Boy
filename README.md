@@ -25,7 +25,7 @@ PREFIX=BOT_PREFIX
 CLIENT_ID=BOT_CLIENT_ID
 ```
 
-if you need so much configuration about the bot you can go in to the `config.js` file and edit some parameters for customizing your bot, that file addresses is here `/storage/config.js`
+if you need so much configuration about the bot you can go in to the `config.js` file and edit some parameters for customizing your bot.
 ```js
 //some example code from "config.js"
 
