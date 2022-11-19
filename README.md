@@ -79,8 +79,9 @@ Packages  |  Version  |  Install
 
 - EZPZ your Music bot are installed and running around 🕺
 
-- How run bot in replit or heroco?
+<details><summary> How run bot in replit or heroco? </summary>
 that was so easy, after you click that buttons👇🏻 you will create some project like this source with importing this source🎓 and after that with installing bot packages, and place bot some important objects run your bot.
+</details>
 
 <p align="center">
 
@@ -96,6 +97,8 @@ that was so easy, after you click that buttons👇🏻 you will create some proj
     <img align="center" alt="Use on Replit" src ="https://repl.it/badge/github/Sobhan-SRZA/DJ-Boy/" >
   </a>
 </p>
+
+---
 
 # **📫 Contact me in :** &nbsp;
 
