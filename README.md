@@ -1,8 +1,8 @@
 
 
-## 🎧 DJ Boy Source (simple music player🎵)
+## 🎧 DJ Boy Source (music player🎵)
   <a href="https://discord.com/api/oauth2/authorize?client_id=912607202064367647&permissions=412320394305&scope=bot%20applications.commands">
-    <img align="right" src = https://cdn.discordapp.com/avatars/912607202064367647/b0d19617e80687efd54966ec5b9ebd3a.png?size=1024" width=25% >
+    <img align="right" src ="https://cdn.discordapp.com/avatars/912607202064367647/b0d19617e80687efd54966ec5b9ebd3a.png?size=1024" width=25% >
   </a>
 
 Hi there👋🏻
