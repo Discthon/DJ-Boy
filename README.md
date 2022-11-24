@@ -8,7 +8,7 @@
 Hi there👋🏻
 I'm **[DJ Boy](https://discord.com/api/oauth2/authorize?client_id=912607202064367647&permissions=412320394305&scope=bot%20applications.commands)🎧**
 
-With using Me you can listen to your all favorite music in good quality by joining to your server voice channel through me.
+With using Me you can listen to your all favorite music with perfect quality by joining to your server voice channel through me.
 So far, I have the ability to play songs from YouTube and Soundcloud links.
 Also, you can easily adjust your playlist using reaction messages, for example: you can stop your music by reacting to emoji (⏸) or turn the music volume down (🔉) or volume high (🔊) with another emoji.
 
